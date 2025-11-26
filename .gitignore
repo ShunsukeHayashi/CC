@@ -1,0 +1,24 @@
+# ===========================================
+# IMPORTANT: .claude ディレクトリは絶対に ignore しないこと
+# .claude/ には プロジェクト設定が含まれており、
+# worktree でも共有するために Git で追跡する必要があります
+# ===========================================
+# !.claude/  ← この行は .claude を明示的に追跡対象にする（必要に応じて有効化）
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Dependencies (uncomment as needed)
+# node_modules/
+# vendor/
+# __pycache__/
+# .venv/
